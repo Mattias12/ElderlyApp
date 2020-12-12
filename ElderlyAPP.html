@@ -1,9 +1,28 @@
+<!doctype html>
+
 <html>
 
 <link rel = "stylesheet"
    type = "text/css"
    href = "ElderlyCSS.css" />
 
+
+<script>
+
+	function showthink(){
+		document.getElementById('thinkdiv').style.display = "block";
+		document.getElementById('recommenddiv').style.display = "block";
+		document.getElementById('homesdiv').style.display = "block";
+		document.getElementById('fooddiv').style.display = "block";
+	}
+
+	function clearall(){
+	
+		window.location.reload();
+	
+	}
+
+</script>
 
 	<head>
 		<title> Age Support </title>
@@ -46,9 +65,9 @@
 			<p>Pre-existing conditions <input type="text" id="conditions"></p>
 	
 
-		<button type = "button">Run</button>
+		<button type = "button" onclick = "showthink(); return false;">Run</button>
 		
-		<button type = "button">Clear All</button>
+		<button type = "button" onclick = "clearall(); return false;">Clear All</button>
 	
 	</form>
 	
@@ -57,17 +76,18 @@
 	
 	<hr style = "position:relative; width:1500px;"></hr>
 	
-	<div style = "position:relative; left: 300px;"><b><u>Things to think about:</u></b></div>
+	<div id = "thinkdiv" style = "position:relative; left: 300px; display:none;"><b><u>Things to think about:</u></b>
 		<ul style = "position:relative; left: 300px;">
 			<li><a href = "" target="_blank">point 1</a href></li>
 			<li><a href = "" target="_blank">point 2</a href></li>
 			<li><a href = "" target="_blank">point 3</a href></li>
 			<li><a href = "" target="_blank">point 4</a href></li>
 		</ul>
+	</div>
 	
 	
 	<br></br>
-	<div style = "position:relative; left: 300px;"><b><u>Recommended devices:</u></b></div>
+	<div id = "recommenddiv" style = "position:relative; left: 300px; display:none;"><b><u>Recommended devices:</u></b>
 	
 		<ul style = "position:relative; left: 300px;">
 			<li><a href = "" target="_blank">point 1</a href></li>
@@ -75,10 +95,10 @@
 			<li><a href = "" target="_blank">point 3</a href></li>
 			<li><a href = "" target="_blank">point 4</a href></li>
 		</ul>
-	
+	</div>
 	
 	<br></br>
-	<div style = "position:relative; left: 300px;"><b><u>Best care homes in your area:</u></b></div>
+	<div id = "homesdiv" style = "position:relative; left: 300px; display:none;"><b><u>Best care homes in your area:</u></b>
 	
 		<ul style = "position:relative; left: 300px;">
 			<li><a href = "" target="_blank">point 1</a href></li>
@@ -86,10 +106,10 @@
 			<li><a href = "" target="_blank">point 3</a href></li>
 			<li><a href = "" target="_blank">point 4</a href></li>
 		</ul>
-	
+	</div>
 	
 	<br></br>
-	<div style = "position:relative; left: 300px;"><b><u>Best food delivery in your area:</u></b></div>
+	<div id = "fooddiv" style = "position:relative; left: 300px; display:none;"><b><u>Best food delivery in your area:</u></b>
 	
 		<ul style = "position:relative; left: 300px;">
 			<li><a href = "" target="_blank">point 1</a href></li>
@@ -97,7 +117,7 @@
 			<li><a href = "" target="_blank">point 3</a href></li>
 			<li><a href = "" target="_blank">point 4</a href></li>
 		</ul>
-	
+	</div>
 	
 </div>
 	
