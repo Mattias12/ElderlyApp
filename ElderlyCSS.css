@@ -1,0 +1,91 @@
+
+/* ElderlyCSS.css */
+body {
+ background-color: white;
+ color: black;
+ font-family:sans-serif;
+}
+h1 {
+ color:rgba(230,230,230,0.9);
+ text-align: center;
+ font: italic 200%}
+ 
+ h2 {
+ color:black;
+ text-align: center;
+ font: italic 200%}
+ 
+ 
+.firstbox {
+position: relative;
+width: 700px;
+height: 40px;
+top: 20px;
+background: navy;
+left: 600px;
+
+}
+
+.center{
+display: flex;
+justify-content: center;
+align-items: center
+}
+
+.secondbox {
+position: relative;
+width: 1500px;
+height: 1300px;
+border: 2px solid grey;
+background: white;
+left: 200px;
+
+}
+
+.thirdbox {
+position: relative;
+width:800px;
+height: 400px;
+border: 2px solid grey;
+background: white;
+left: 300px;
+
+}
+
+.uppercase{
+text-transform:uppercase
+}
+}
+
+
+
+
+/* SidebarCSS.css */
+* {
+	
+	margin:0px;
+	padding:0px;
+	font-family:sans-serif;
+	
+}
+
+#sidebar {
+	position: fixed;
+	width:200px;
+	height:100%;
+	background-color:#fffdd0;
+	left: -40px;
+	top: -15px;
+	
+	
+		
+}
+
+#sidebar ul li {
+	
+	color:rgba(230,230,230,0.9);
+	list-style:none;
+	padding: 15px 10px;
+	border-bottom: 1px solid rgba(100,100,100,0.3);
+}
+
