@@ -1,0 +1,164 @@
+<!doctype html>
+
+<html>
+
+<link rel = "stylesheet"
+   type = "text/css"
+      href = "ElderlyCSS.css" />
+	  
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "bootstrap.min.css" />
+   
+   
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+<script>
+
+	function showthink(){
+		document.getElementById('thinkdiv').style.display = "block";
+		document.getElementById('recommenddiv').style.display = "block";
+		document.getElementById('homesdiv').style.display = "block";
+		document.getElementById('fooddiv').style.display = "block";
+	}
+
+	function clearall(){
+	
+		window.location.reload();
+	
+	}
+
+
+
+
+</script>
+
+	<head>
+		<title> Age Support - Home</title>
+		<link rel="icon" href="faviconElderly.jpg" type="image/jpg" sizes="16x16">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	
+
+
+<body style = "background-color:#FFFAF0; height: 100%; width: 100%;">
+
+<div id="sidebar">
+
+	
+	<ul>
+		<li><a href = "file:///C:/Users/mnordlander/Desktop/ElderlyApp/ElderlyAPP.html">Home</a href></li>
+		<li><a href = "file:///C:/Users/mnordlander/Desktop/ElderlyApp/AboutElderly.html" target="_blank">About</a href></li>
+		<li><a href = "file:///C:/Users/mnordlander/Desktop/ElderlyApp/ContactElderly.html" target="_blank">Contact</a href></li>
+		<li><a href = "https://www.ageuk.org.uk/" target="_blank">Age UK</a href></li>
+		<li><a href = "https://supercarers.com/elderly-care/" target="_blank">Recommended Carers</a href></li>
+		<li><a href = "https://www.cqc.org.uk/what-we-do/services-we-regulate/find-care-home" target="_blank">CareQuality Commission</a href></li>
+	</ul>
+</div>	
+
+	<div  class = "container">
+		<h1 class="center" >Age Support: Information for the Elderly</h1>
+
+	</div>
+
+
+
+	<br></br>
+	
+	<form id="Location" style = "position:relative; left: 300px;">
+	
+		<p><b>Let us know your needs:</b></p> <br>
+		
+			<p>Age <input type="text" id="age"></p>
+			<p>Gender <input type="text" id="gender"></p>
+			<p>Pre-existing conditions <input type="text" id="conditions"></p>
+			<p>Your Post Code <input type="text" id="postcode"></p>
+	
+
+		<button type = "button" onclick = "showthink(); return false;">Run</button>
+		
+		<button type = "button" onclick = "clearall(); return false;">Clear All</button>
+	
+	</form>
+	
+	
+	<br></br>
+	
+	<hr style = "position:relative; width:1500px; left: 250px;"></hr>
+	
+	<div id = "thinkdiv" style = "position:relative; left: 300px; display:none;"><b><u>Things to think about:</u></b>
+		<ul style = "position:relative; left: 300px;">
+			<li><a href = "file:///C:/Users/mnordlander/Desktop/ElderlyApp/ThingsToConsider.html" target="_blank">What to think about (SPONSORED ARTICLE EXAMPLE)</a></li>
+
+		</ul>
+	</div>
+	
+	
+	<br></br>
+	<div id = "recommenddiv" style = "position:relative; left: 300px; display:none;"><b><u>Recommended devices:</u></b>
+	
+		<ul style = "position:relative; left: 300px;">
+			<li><a href = "file:///C:/Users/mnordlander/Desktop/ElderlyApp/BestHearingAids.html" target="_blank">Best Hearing Aids (AFFILIATE COMMISSION EXAMPLE)</a></li>
+
+		</ul>
+	</div>
+	
+	<br></br>
+	<div id = "homesdiv" style = "position:relative; left: 300px; display:none;"><b><u>Best care homes in your area:</u></b>
+	
+		<ul style = "position:relative; left: 300px;">
+			<li><a href = "http://www.lukkahomes.com/ashton-1.html" target="_blank">Ashton Lodge Care Centre (CPC FROM THIS CLICK)</a></li>
+			<li><a href = "https://www.mha.org.uk/care-homes/dementia-care/riverview-lodge/" target="_blank">Riverview Lodge Care Home (CPC FROM THIS CLICK)</a></li>
+			<li><a href = "https://www.careuk.com/care-homes/elmstead-house-hendon" target="_blank">Elmstead House Care Home (CPC FROM THIS CLICK)</a></li>
+		</ul>
+	</div>
+	
+	<br></br>
+	<div id = "fooddiv" style = "position:relative; left: 300px; display:none;"><b><u>Best food delivery in your area:</u></b>
+	<p></p>
+		<ul style = "position:relative; left: 300px;">
+			<a href="https://www.just-eat.co.uk/"  target="_blank">
+				<img src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-0/p206x206/93998056_10158255516952552_6880803866099580928_o.png?_nc_cat=102&ccb=2&_nc_sid=730e14&_nc_ohc=J6WJ-Saqs1EAX8yibDp&_nc_ht=scontent-lhr8-1.xx&_nc_tp=30&oh=9dda5c0af44417fe91722e992849c7bc&oe=5FFC38BC"/>Just Eat Ad (CPC FROM THIS CLICK)</a>
+				
+	<p></p>
+	<p></p>
+		<ul style = "position:relative; left: 300px;">
+			<a href="https://deliveroo.co.uk/"  target="_blank">
+				<img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/506b9056712937.59b95de06019c.jpg"/>Deliveroo Ad (CPC FROM THIS CLICK)</a>
+		</ul>
+	</div>
+	
+</div>
+
+	
+</body>
+
+<footer style = "position: aboslute;
+	width: 100%;
+	height:auto;
+	bottom: 0;
+	left: 0px;
+	background-color: grey;
+	color: white;
+	text-align: center;">
+
+<br>
+  <p>Cranfield University eMBA Team 3</p>
+  <p><a href="mailto:ExecMBA0420Team3@cranfield.ac.uk">ExecMBA0420Team3@cranfield.ac.uk</a></p>
+<br>
+<p>All Rights Reserved</p>
+  
+</footer>
+
+-->
+
+
+</html>
